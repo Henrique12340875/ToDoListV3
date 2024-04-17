@@ -13,6 +13,7 @@ function add(){
         title:title.value
     })
     localStorage.setItem(localStorageKey,JSON.stringify(tasks))
+    alert("A tarefa foi adicionada!");
     showValue()
 }
 function showValue(){
